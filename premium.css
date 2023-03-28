@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+h1{
+	color: rgb(25,25,100);
+}
+body{
+	background-image: url("web2.jpg");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: cursive;
+}
+ul{
+	margin: 3%;
+	width: 550px;
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding: 25px;
+	border-radius: 25px;
+	background-color: #18181B;
+	box-shadow: 20px 4px 8px #18181B;
+}
+li{
+	margin: auto;
+	color:#00FFFF;
+	font-size: 20px;
+	cursor: pointer;
+}
+li a{
+	color: #00FFFF;
+	text-decoration: none;
+}
+.nav4{
+    background-color: red;
+    padding: 10px;
+    border-radius: 25px;
+}
+.cards{
+	display: flex;
+	margin: 20px;
+	text-align: center;
+	justify-content: space-around;
+	font-family: times new roman;
+}
+.card1{
+	background:linear-gradient(
+		to bottom left,yellow,yellow,white
+	);
+	width: 400px;
+	height: 300px;
+    border-radius: 25px;
+    border:2px solid black;
+    box-shadow: 12px 13px 22px black;
+}
+.card2{
+	background:linear-gradient(
+		to bottom left,#6c6c6c,white
+	);
+	width: 400px;
+	height: 300px;
+    border-radius: 25px;
+    border:2px solid black;
+    box-shadow: 12px 13px 22px black;
+}
+.card3{
+	background:linear-gradient(
+		to bottom left,aqua,white
+	);
+	width: 400px;
+	height: 300px;
+    border-radius: 25px;
+    border:2px solid black;
+    box-shadow: 12px 13px 22px black;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.cards p{
+	color: green;
+	font-size: 25px;
+	text-align: left;
+	margin-left: 120px;
+}
+button{
+	width: 100px;
+	height: 30px;
+	border-radius: 50px;
+	cursor: pointer;
+	color: white;
+	background:linear-gradient(
+		to  left,violet,magenta,violet
+	);
+}
+footer{
+	background-color: gray;
+	color: black;
+	padding: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+footer img{
+	width: 30px;
+}
+@media only screen and (max-width: 1000px){
+	h1{
+		font-size: 100px;
+	}
+	ul{
+		width: 900px;
+		height: 150px;
+	}
+	li{
+		font-size: 40px;
+		padding: 30px;
+	}
+	.cards{
+        margin: 90px;
+        display: block;
+        text-align: center;
+    }
+    .card1{
+        width: 800px;
+        height: 400px;
+    }
+    .card2{
+        width: 800px;
+        height: 400px;
+    }
+    .card3{
+        width: 800px;
+        height: 400px;
+    }
+    h2{
+   	    font-size: 70px;
+	}
+	h3{
+        font-size: 50px;
+	}
+	.cards p{
+		font-size:40px;
+		margin-left: 300px;
+	}
+	button{
+		font-size: 30px;
+	    width: 150px;
+	    height: 60px;
+    }
+    footer{
+		font-size: 40px;
+	}
+	footer img{
+		width: 60px;
+	}
+}
+
