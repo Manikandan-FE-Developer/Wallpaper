@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title>www.wallpaper.com</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="website icon" type="jpg" href="dp.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <marquee direction="right"><h1>Wallpapers</h1></marquee><hr>
+      <ul>
+      	<li><a class="nav1" href="index.html">Home</a></li>
+		    <li><a class="nav2" href="theme.html">Theme</a></li>
+   	  	<li><a class="nav3" href="wallpaper.html">Wallpaper</a></li>
+   	  	<li><a class="nav4" href="premium.html">Premium</a></li>
+      </ul><br>
+<!--       Img overflow       -->
+      <h2>Click me</h2>
+      <div class="img">
+        <img src="e7.jpg">
+        <div class="content">
+           <img src="insta-c-png.jpg">
+           <h1>Beginner Codes</h1>
+           <p>follow me on instagram</p>
+           <p>https://instagram.com/beginner_codes1</p>
+        </div>
+      </div><br>
+      <h2>Click me</h2>
+      <div class="img">
+        <img src="dp.jpg">
+        <div class="content">
+           <img src="git-b-png.jpg">
+           <h1>Beginner Codes</h1>
+           <p>follow me on github</p>
+           <p>https://github.com/Manikandan-3</p>
+        </div>
+      </div><br>
+<!--       Img Rotate       -->
+      <h2>Click to see the magic</h2>
+      <div class="images">
+        <img src="e5.jpg">
+        <img src="e4.jpg">
+      </div>
+<!--       Img Swiper       -->
+      <h2>Don't Touch</h2>
+      <div class="container">
+       <div class="swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide"><img src="e1.jpg"></div>
+           <div class="swiper-slide"><img src="e2.jpg"></div>
+           <div class="swiper-slide"><img src="e3.jpg"></div>
+           <div class="swiper-slide"><img src="e6.jpg"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+       </div>
+      </div><br>
+<footer>
+  <p>Follow us</p>
+  <div>
+    <a href="https://instagram.com/beginner_codes_1">
+      <img src="insta-c-png.jpg">
+    </a>
+    <a href="https://github.com/Manikandan-3">
+      <img src="git-t-png.jpg">
+    </a>
+    <a href="https://www.linkedin.com/in/mani-kandan-327176248">
+      <img src="in-c-png.jpg">
+    </a>
+  </div>
+  <p>&copy beginner codes 2023</p>
+  <p>Privacy Policy | Terms & Conditions</p>
+</footer>
+<script>
+  const swiper = new Swiper('.swiper', {
+    autoplay:{
+      delay:2000,
+      disableOnInteraction:false,
+    },
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+</script>
+</body>
+</html>
