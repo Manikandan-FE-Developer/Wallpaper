@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 h1{
-  color: rgb(25,25,100);
+  color: rgb(25,25,100); 
+  font-family: 'Rampart One';
 }
 body{
   background-image: url("web2.jpg");
